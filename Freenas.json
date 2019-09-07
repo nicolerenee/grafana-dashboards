@@ -2709,6 +2709,31 @@
         "tagsQuery": "",
         "type": "query",
         "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "text": "All",
+          "value": "$__all"
+        },
+        "datasource": "${DS_FREENAS}",
+        "definition": "show tag values with key = \"resource\"",
+        "hide": 0,
+        "includeAll": true,
+        "label": "resource",
+        "multi": true,
+        "name": "df_resource",
+        "options": [],
+        "query": "show tag values with key = \"resource\"",
+        "refresh": 1,
+        "regex": "/^df-/",
+        "skipUrlSync": false,
+        "sort": 0,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
       }
     ]
   },
